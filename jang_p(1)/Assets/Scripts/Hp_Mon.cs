@@ -40,7 +40,7 @@ public class Hp_Mon : MonoBehaviour
             Mon.SetActive(false);// 몬스터 이미지 안보이기
             mon_hp_speedPRE = 100;
             Cha.transform.position = new Vector3(10, 10, 10);
-            Cha.transform
+ 
         }
         else
         {
