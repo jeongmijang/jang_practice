@@ -7,11 +7,11 @@ public class Clipboard : MonoBehaviour
 {
     private void Start()
     {
-        List<Dictionary<string, object>> data_Dialog = CSVReader.Read("mon_table");
+        //List<Dictionary<string, object>> data_Dialog = CSVReader.Read("mon_table");
 
-        for (int i = 0; i < data_Dialog.Count; i++) 
-        { 
-            print(data_Dialog[i]["MonID"].ToString()); 
-        }
+        //for (int i = 0; i < data_Dialog.Count; i++) 
+        //{ 
+        //    print(data_Dialog[i]["MonID"].ToString()); 
+        //}
     }
 }
